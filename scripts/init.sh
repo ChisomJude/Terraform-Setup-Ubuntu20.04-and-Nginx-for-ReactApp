@@ -18,3 +18,4 @@ sudo apt-get update
 systemctl start nginx
 
 #proceed to clone your project or create react app
+#do your npm install and more

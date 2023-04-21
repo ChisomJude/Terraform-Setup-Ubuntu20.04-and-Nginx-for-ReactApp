@@ -100,9 +100,9 @@ resource "azurerm_linux_virtual_machine" "nginx" {
        version = "20.04.202303280"
        
    }
-
+#you can change to credentials 
    computer_name = "nginx"
-   admin_username = "chisomjude"
+   admin_username = "root"
    admin_password = "Superadmin23"
    disable_password_authentication = false
 
