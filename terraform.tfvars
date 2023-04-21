@@ -1,0 +1,9 @@
+resource_group_name     = "terraformproject2"
+location = "eastus"
+subscription_id = "XXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+client_id = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+client_secret = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+tenant_id = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+#instance_size = "Standard_F2" works for ubuntu 18.04
+instance_size = "Standard_B2s" 
+environment = "prod"
